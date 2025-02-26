@@ -1,0 +1,19 @@
+table {
+    width: 500px;
+    border: dashed;
+}
+
+td {
+    border: solid;
+}
+
+table:hover {
+    border: double;
+    border-color: red;
+}
+
+.tblDados {
+    border-style: groove;
+    border-width: 2;
+    border-color: blue;
+}
