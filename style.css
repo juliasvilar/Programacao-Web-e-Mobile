@@ -1,5 +1,5 @@
 body {
-    background-color: #2f4156;
+    background-color: #dee0df;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,6 +7,7 @@ body {
     height: 95vh;
 }
 form {
+    border-radius: 25px;
     background-color: white;
     padding: 20px;
     border-radius: 15px;
