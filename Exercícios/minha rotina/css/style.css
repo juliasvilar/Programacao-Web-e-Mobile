@@ -51,9 +51,12 @@ main{
 }
 
 .infos{
+    margin-top: 50px;
     text-align: justify;
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
+    gap: 20px;
 }
 
 .rotina{
@@ -63,11 +66,13 @@ main{
     display: inline-block;
     max-width: 500px;
     align-items: center;
+    height: 330px;
 }
 
 .album-audio{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 20px;
 }
 
@@ -76,9 +81,18 @@ main{
     width: 70px;
 }
 
-.video{
-    padding: 70px 0;
-    text-align: center;
+.back-video {
+    background-color: #fff3e4;
+    border-radius: 50px;
+    padding: 30px;
+    display: flex;
+    max-width: 500px;
+    align-items: center;
+    height: 300px;
+}
+
+
+.back-video video{
     width: 100%;
     height: auto;
 }
