@@ -115,15 +115,26 @@ body {
 
 #projetos.visivel {
     opacity: 1;
-    width: 300px;
+    width: 600px;
     padding: 20px;
     background-color: #c8b9a0;
     border-radius: 20px;
 }
 
+#projetos.visivel p {
+    margin: 4px 0;
+    line-height: 1.3;
+    color: #473123
+}
+
 #projetos h2 {
     margin-top: 0;
     color: #34271f;
+}
+
+#projetos h3{
+    margin-bottom: 5px;
+    margin-top: 15px;
 }
 
 #contato{
@@ -145,4 +156,30 @@ body {
 #contato h2 {
     margin-top: 0;
     color: #34271f;
+}
+
+#contato ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    margin-bottom: 8px;
+    color: #34271f;
+}
+
+li a{
+    color: #34271f;
+}
+
+#contato li:hover{
+    transform: translateY(-1.5px);
+}
+
+h3{
+    color: #473428;
+}
+
+#projetos a{
+    color: #473123;
 }
