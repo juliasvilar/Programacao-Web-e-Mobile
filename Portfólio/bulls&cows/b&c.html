@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bulls & cows</title>
+    <link rel="stylesheet" href="b&c.css">
+
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+       <div class="conteudo">
+            <div class="infos">
+
+                <h2>Jogo da Senha (Bulls & Cows)</h2>
+
+                <div class="jogo">
+                    <input type="text" class="caixa" placeholder="Insira sua tentativa (4 números)" maxlength="4">
+                    <button id="tentar" class="botaoTentar" onclick="tentar()">Tentar</button>
+                    <button id="recomecar" class="botaoRecomecar" onclick="reiniciar()">Recomeçar</button>                    
+                    <div class="resultados"></div>
+                    <ul id="tentativas" class="tentativa"></ul>
+                </div>
+
+
+            </div>
+       </div> 
+</body>
+</html>
