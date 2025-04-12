@@ -58,3 +58,8 @@ function mostrarResultado(tentativa, bulls, cows){
 function reiniciar(){
     location.reload();
 }
+
+function desistir(){
+    alert("Que pena... A senha era "+ senha +"!");
+    location.reload();
+}
