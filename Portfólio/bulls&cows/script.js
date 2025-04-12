@@ -59,7 +59,6 @@ function reiniciar(){
     location.reload();
 }
 
-function desistir(){
-    alert("Que pena... A senha era "+ senha +"!");
-    location.reload();
+function mostrarSenha(){
+    alert("A senha é "+ senha +"!");
 }
