@@ -17,7 +17,7 @@ console.log("Senha escondida pro desenolvedor hehehehe... ", senha);
 function tentar(){
     const tentativa = document.querySelector(".caixa").value;
 
-    if (!/^\d{4}$/.test(tentativa)) {
+    if (!/^\d{4}$/.test(tentativa)){
         alert("Apenas números são aceitos!");
         return;
     }
@@ -25,7 +25,7 @@ function tentar(){
     let bulls = 0;
     let cows = 0;
 
-    for (let i = 0; i < 4; i++) {
+    for (let i = 0; i < 4; i++){
         if (tentativa[i] === senha[i]) {
             bulls++;
         } else if (senha.includes(tentativa[i])) {
@@ -35,12 +35,17 @@ function tentar(){
 
     mostrarResultado(tentativa, bulls, cows);
 
-    if (bulls === 4) {
+    if (bulls === 4){
+        confetti({
+            particleCount: 150,
+            spread: 70,
+            origin: { y: 0.6 }
+        });
         alert("Parabéns! Você acertou a senha!");
     }
 }
 
-function mostrarResultado(tentativa, bulls, cows) {
+function mostrarResultado(tentativa, bulls, cows){
     const ulTentativa = document.querySelector("#tentativas");
 
     const li = document.createElement("li");
@@ -50,6 +55,6 @@ function mostrarResultado(tentativa, bulls, cows) {
     contador++;
 }
 
-function reiniciar() {
+function reiniciar(){
     location.reload();
 }
