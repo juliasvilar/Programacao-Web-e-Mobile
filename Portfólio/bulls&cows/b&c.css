@@ -87,7 +87,7 @@ li{
 }
 
 .minhasTentativas{
-    max-height: 200px;
+    max-height: 180px;
     overflow-y: auto;
     margin-top: 10px;
     padding-right: 25px;
