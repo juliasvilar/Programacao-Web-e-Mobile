@@ -36,12 +36,12 @@ function tentar(){
     mostrarResultado(tentativa, bulls, cows);
 
     if (bulls === 4) {
-        alert("🎉 Parabéns! Você acertou a senha!");
+        alert("Parabéns! Você acertou a senha!");
     }
 }
 
 function mostrarResultado(tentativa, bulls, cows) {
-    const ulTentativa = document.querySelector(".resultados");
+    const ulTentativa = document.querySelector("#tentativas");
 
     const li = document.createElement("li");
     li.textContent = `Tentativa ${contador}: ${tentativa} | Bulls: ${bulls} | Cows: ${cows}`;

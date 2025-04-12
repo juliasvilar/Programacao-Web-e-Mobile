@@ -15,13 +15,17 @@
             <div class="infos">
 
                 <h2>Jogo da Senha (Bulls & Cows)</h2>
+                <p class="tente">Tente adivinhar a senha secreta! <br>Regras: senha de no máximo quatro dígitos, número de "bulls" sendo os dígitos na posição correta e "cows" os números corretos, mas na posição errada. <br>Boa sorte!</p>
 
                 <div class="jogo">
                     <input type="text" class="caixa" placeholder="Insira sua tentativa (4 números)" maxlength="4">
                     <button id="tentar" class="botaoTentar" onclick="tentar()">Tentar</button>
                     <button id="recomecar" class="botaoRecomecar" onclick="reiniciar()">Recomeçar</button>                    
                     <div class="resultados"></div>
-                    <ul id="tentativas" class="tentativa"></ul>
+                    
+                    <div class="minhasTentativas"> 
+                        <ul id="tentativas" class="tentativa"></ul>
+                    </div>
                 </div>
 
 
